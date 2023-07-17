@@ -1,0 +1,81 @@
+.chatPage {
+  background-color: rgb(54, 49, 49);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatContainer {
+  background-color: white;
+  height: 60%;
+  width: 50%;
+  border-radius: 0.5vmax;
+}
+.header {
+  background-color: #437d80;
+  border-radius: 7px 7px 7px 7px;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin: 2.5vmax;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.header > a > img {
+  width: 2vmax;
+  height: 2vmax;
+  margin: 2.5vmax;
+  cursor: pointer;
+  filter: invert(100%) brightness(100%);
+  transition: all 0.4s;
+}
+.header > a > img:hover {
+  transform: scale(1.2);
+}
+.chatBox {
+  height: 69.5%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.inputBox {
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#chatInput {
+  height: 100%;
+  width: 80%;
+  border: none;
+  padding: 1vmax;
+  box-sizing: border-box;
+  background-color: rgb(243, 242, 242);
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  outline: none;
+  border-radius: 0.5vmax;
+}
+.sendBtn {
+  height: 100%;
+  width: 20%;
+  background-color: #437d80;
+  font-family: "Raleway", sans-serif;
+  border: none;
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+  border-radius: 0.5vmax;
+}
+.sendBtn:hover {
+  background-color: #325b5e;
+  font-size: large;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}

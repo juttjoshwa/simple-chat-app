@@ -1,0 +1,74 @@
+.joinPage {
+  background-color: rgb(54, 49, 49);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.JoinContainer {
+  /* border: 1px solid white;
+  border-radius: 12px; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.JoinContainer > img {
+  cursor: pointer;
+  width: 10vmax;
+  filter: drop-shadow(5px 5px 5px #fff);
+}
+.JoinContainer > h1 {
+  color: white;
+  user-select: none;
+  font-size: 2vmax;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  border-bottom: 0.2vmax solid white;
+  border-radius: 1vmax;
+  width: 25vmax;
+  padding: 1vmax;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 0 rgba(255, 255, 255, .5);
+}
+.JoinContainer > h1:hover{
+transform: scale(1.1)
+}
+
+#joinInput{
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    margin: 2vmax;
+    border-radius: 0.5vmax;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(9, 0, 9, .5);
+
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    border-radius: 0.5vmax;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: white ;
+    background-color: #437d80;
+    box-sizing: border-box;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(19, 10, 19, .8);
+}
+.joinbtn:hover{
+    background-color: #2b5153;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    transform: scale(1.1);
+}
